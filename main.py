@@ -47,8 +47,7 @@ def main():
 
     sc = ScoreCalculator()
     real_score, fake_score = sc.classifyText(text)
-    print("Originality score: ", real_score)
-    print("Chatgpt score: ", fake_score)
+    print(f"Originality score: {real_score}. Chatgpt score: {fake_score}")
 
 if __name__ == "__main__":
     main()
